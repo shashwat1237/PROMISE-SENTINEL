@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise Sentinel | Offline Flight Recorder</title>
+    <link rel="preload" href="/clunk.mp3" as="audio">
+    <link rel="preload" href="/whoosh.mp3" as="audio">
+    <script>
+      // [AUDIT FIX 3.2] Polyfill for legacy Node.js dependencies
+      // This is the "Nuclear Option" to prevent crashes in visualization libs
+      if (typeof global === 'undefined') {
+        window.global = window;
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
