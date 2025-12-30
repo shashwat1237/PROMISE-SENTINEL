@@ -107,19 +107,47 @@ PROMISE-SENTINEL/
 
 
 ## Architecture
-
-User Action  
-↓  
-Encrypt Payload (AES-GCM)  
-↓  
-SafeStorage Singleton  
-↓  
-Normal Mode (localStorage) / Air-Gap Mode (In-Memory Map)  
-↓  
-Custom Storage Events  
-↓  
-Reactive UI + Visual Diagnostics  
-
+```text
+┌──────────────────────┐
+│     User Action      │
+│ (Merchant Console)   │
+└─────────┬────────────┘
+          ↓
+┌──────────────────────┐
+│  Encrypt Payload     │
+│     (AES-GCM)        │
+└─────────┬────────────┘
+          ↓
+┌────────────────────────────┐
+│   SafeStorage              │
+│   (Protocol Gate)          │
+└─────────┬──────────────────┘
+          ↓
+┌──────────────────────────────────────────┐
+│        Persistence Strategy              │
+│                                          │
+│   ┌──────────────────┐  ┌─────────────┐  │
+│   │   Normal Mode    │  │  Air-Gap    │  │
+│   │  localStorage    │  │  Mode       │  │
+│   │                  │  │ In-Memory   │  │
+│   │                  │  │ Map (RAM)   │  │
+│   └──────────────────┘  └─────────────┘  │
+└─────────┬────────────────────────────────┘
+          ↓
+┌────────────────────────────┐
+│  Protocol & Telemetry      │
+│        Events              │
+└─────────┬──────────────────┘
+          ↓
+┌──────────────────────────────────────────┐
+│  Reactive UI + Visual Diagnostics        │
+│                                          │
+│  • Merchant Console                      │
+│  • Sentinel Overwatch                    │
+│  • Queue Visuals                         │
+│  • Air-Gap Indicators                    │
+└──────────────────────────────────────────┘
+```
 ---
 
 ## Tech Stack
