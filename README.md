@@ -154,6 +154,8 @@ Reactive UI + Visual Diagnostics
 ## Running Locally
 
 ```bash
+git clone https://github.com/shashwat1237/PROMISE-SENTINEL
+cd PROMISE-SENTINEL
 npm install
 npm run dev
 ```
