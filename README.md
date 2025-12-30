@@ -1,7 +1,7 @@
 # Promise Sentinel
-**FOR MERCHANT CONSOLE GO TO https://promise-sentinel.vercel.app/**
+**FOR MERCHANT CONSOLE GO TO https://promise-sentinel.vercel.app/ and then click on INITIALIZE SENTINEL_OS**
 
-**FOR GOD MODE/ TECH VIEW GO TO https://promise-sentinel.vercel.app/god-mode**
+**FOR GOD MODE/ TECH VIEW GO TO https://promise-sentinel.vercel.app/god-mode and then click on INITIALIZE SENTINEL_OS**
 
 
 **The Local-First Flight Recorder for the Offline Economy**
