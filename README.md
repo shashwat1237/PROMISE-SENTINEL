@@ -151,21 +151,11 @@ npm run dev
 ## What This Project Is Not
 
 - A real payment processor
-- A POS replacement
 - A backend-dependent system
 - A cloud-first application
 
 ---
 
-## Future Work
-
-- Complete TypeScript migration
-- Expanded property-based verification
-- Multi-device synchronization
-- Immutable ledger backends
-- Hardware POS integration
-
----
 
 ## License
 
