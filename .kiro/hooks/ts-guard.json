@@ -1,0 +1,6 @@
+{
+  "trigger": "onFileSave",
+  "files": ["**/*.ts", "**/*.tsx"],
+  "action": "askAgent",
+  "instruction": "Review the saved file against `.kiro/steering/tech.md`. 1. Check if any 'any' types are used. 2. If found, strictly flag them as violations."
+}
