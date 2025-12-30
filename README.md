@@ -156,7 +156,7 @@ Reactive UI + Visual Diagnostics
 ```bash
 git clone https://github.com/shashwat1237/PROMISE-SENTINEL
 cd PROMISE-SENTINEL
-npm install
+npm install --legacy-peer-deps
 npm run dev
 ```
 
