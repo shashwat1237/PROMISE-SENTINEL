@@ -66,6 +66,7 @@ The system degrades gracefully instead of crashing.
 - Demonstrates that the system continues operating correctly
 
 ---
+```text
 PROMISE-SENTINEL/
 ├── .kiro/                       # AI Agentic Supervision Configuration
 │   ├── hooks/
@@ -100,6 +101,10 @@ PROMISE-SENTINEL/
 ├── tailwind.config.js           # UI styling configuration
 ├── tsconfig.json                # TypeScript compiler settings
 └── vite.config.js               # Build tool configuration
+
+```
+
+
 ## Architecture
 
 User Action  
