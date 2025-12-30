@@ -66,6 +66,7 @@ The system degrades gracefully instead of crashing.
 - Demonstrates that the system continues operating correctly
 
 ---
+### Project Directory structure
 ```text
 PROMISE-SENTINEL/
 ├── .kiro/                       # AI Agentic Supervision Configuration
