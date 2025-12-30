@@ -1,5 +1,6 @@
 # Promise Sentinel
 **FOR MERCHANT CONSOLE GO TO https://promise-sentinel.vercel.app/**
+
 **FOR GOD MODE/ TECH VIEW GO TO https://promise-sentinel.vercel.app/god-mode**
 **The Local-First Flight Recorder for the Offline Economy**
 
