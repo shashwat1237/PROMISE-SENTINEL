@@ -66,7 +66,40 @@ The system degrades gracefully instead of crashing.
 - Demonstrates that the system continues operating correctly
 
 ---
-
+PROMISE-SENTINEL/
+├── .kiro/                       # AI Agentic Supervision Configuration
+│   ├── hooks/
+│   │   └── ts-guard.json        # Custom "Agentic Guardrail" for type safety enforcement
+│   ├── specs/                   # AI-Generated Design Artifacts
+│   │   └── safe-vault-refactor/
+│   │       ├── design.md        # Technical architecture documentation
+│   │       ├── requirements.md  # System requirements and traceability matrix
+│   │       └── tasks.md         # Implementation plan and status tracking
+│   └── steering/
+│       ├── product.md           # Product vision and user personas
+│       └── tech.md              # "The Constitution": Strict technical standards
+├── node_modules/                # Project dependencies
+├── public/                      # Static assets
+│   ├── clunk.mp3                # Success audio cue for "Theatrical Feedback"
+│   └── whoosh.mp3               # UI transition audio cue
+├── src/                         # Source Code
+│   ├── components/              # UI Components
+│   │   ├── App.jsx              # Main application entry point
+│   │   └── theatricalContext.jsx # Context for managing sounds and visual glitches
+│   ├── core/                    # Hardened Logic (The Engine)
+│   │   ├── SafeStorage.ts       # Singleton storage engine (Air-Gap Vault)
+│   │   ├── SafeStorage.test.ts  # Property-based tests for singleton behavior
+│   │   ├── safeVault.js         # Legacy wrapper for backward compatibility
+│   │   ├── types.ts             # Strict TypeScript interfaces and enums
+│   │   └── types.test.ts        # Property tests for interface integrity
+│   ├── hooks/                   # Custom React hooks
+│   └── main.jsx                 # Vite bootstrap file
+├── .gitignore                   # Git exclusion rules
+├── jest.config.js               # Testing framework configuration
+├── package.json                 # Project metadata and scripts
+├── tailwind.config.js           # UI styling configuration
+├── tsconfig.json                # TypeScript compiler settings
+└── vite.config.js               # Build tool configuration
 ## Architecture
 
 User Action  
