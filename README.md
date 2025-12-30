@@ -2,6 +2,8 @@
 **FOR MERCHANT CONSOLE GO TO https://promise-sentinel.vercel.app/**
 
 **FOR GOD MODE/ TECH VIEW GO TO https://promise-sentinel.vercel.app/god-mode**
+
+
 **The Local-First Flight Recorder for the Offline Economy**
 
 Promise Sentinel is an **offline-first transaction recording system** built to demonstrate how web applications can remain reliable in **hostile environments** such as weak connectivity, Safari Private Mode, and browser storage failures.
