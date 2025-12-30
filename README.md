@@ -119,6 +119,13 @@ npm install
 npm run dev
 ```
 
+## Running deployed version online via Vercel
+
+```FOR MERCHANT CONSOLE GO TO https://promise-sentinel.vercel.app/ and then click on INITIALIZE SENTINEL_OS
+FOR GOD MODE/ TECH VIEW GO TO https://promise-sentinel.vercel.app/god-mode and then click on INITIALIZE SENTINEL_OS
+```
+
+
 ### Requirements
 - Modern browser with Web Crypto API support
 - HTTPS or localhost (required for crypto APIs)
