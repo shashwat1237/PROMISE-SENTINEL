@@ -34,7 +34,7 @@ export const Layout = ({ children, isChaos, title, side, systemStatus }) => {
 
         <header className="mb-8 flex justify-between items-center border-b border-white/10 pb-4 relative z-40">
           <h1 className="text-xl font-mono font-bold text-white tracking-widest">
-            PROMISE SENTINEL <span className="text-xs text-neutral-500">v4.3 ({side})</span>
+            SENTINEL PROTOCOL <span className="text-xs text-neutral-500">v4.3 ({side})</span>
           </h1>
           <div className="flex gap-2">
             {systemStatus === 'AIR_GAPPED' && (
