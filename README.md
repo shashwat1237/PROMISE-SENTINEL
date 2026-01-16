@@ -1,4 +1,4 @@
-# Promise Sentinel
+# Sentinel Protocol
 
 
 
@@ -11,7 +11,7 @@
 
 **The Local-First Flight Recorder for the Offline Economy**
 
-Promise Sentinel is an **offline-first transaction recording system** built to demonstrate how web applications can remain reliable in **hostile environments** such as weak connectivity, Safari Private Mode, and browser storage failures.
+Sentinel Protocol is an **offline-first transaction recording system** built to demonstrate how web applications can remain reliable in **hostile environments** such as weak connectivity, Safari Private Mode, and browser storage failures.
 
 This project focuses on **protocol hardening**, not payments.
 
@@ -21,7 +21,7 @@ This project focuses on **protocol hardening**, not payments.
 
 In real-world high-density environments (festivals, pop-ups, mobile vendors), network connectivity often degrades instead of fully disconnecting. This “Lie-Fi” state causes many web applications to freeze, crash, or silently lose data.
 
-Promise Sentinel is designed to **never lose a transaction**, even when:
+Sentinel Protocol is designed to **never lose a transaction**, even when:
 - the network is unreliable
 - browser storage is blocked or full
 - runtime assumptions fail
@@ -68,7 +68,7 @@ The system degrades gracefully instead of crashing.
 ---
 ### Project Directory structure
 ```text
-PROMISE-SENTINEL/
+SENTINEL-PROTOCOL/
 ├── .kiro/                       # AI Agentic Supervision Configuration
 │   ├── hooks/
 │   │   └── ts-guard.json        # Custom "Agentic Guardrail" for type safety enforcement
@@ -182,8 +182,8 @@ PROMISE-SENTINEL/
 ## Running Locally
 
 ```bash
-git clone https://github.com/shashwat1237/PROMISE-SENTINEL
-cd PROMISE-SENTINEL
+git clone https://github.com/shashwat1237/SENTINEL-PROTOCOL
+cd SENTINEL-PROTOCOL
 npm install --legacy-peer-deps
 npm run dev
 ```
